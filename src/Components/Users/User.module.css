@@ -1,0 +1,15 @@
+.img {
+    width: 100px;
+    height: 100px;
+}
+
+.currentPage {
+    color: white;
+    background-color: black;
+    margin: 5px;
+}
+
+.pagination {
+    margin: 3px;
+    padding: 3px;
+}

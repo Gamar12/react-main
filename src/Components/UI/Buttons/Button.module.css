@@ -1,0 +1,37 @@
+.button_20 {
+    background-color: #4D4AE8;
+    background-image: linear-gradient(180deg, rgba(255, 255, 255, .15), rgba(255, 255, 255, 0));
+    border: 1px solid #4AE8;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.1) 1px 2px 4px;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 16px;
+    min-height: 40px;
+    outline: 0;
+    padding: 5px;
+    text-align: center;
+    text-rendering: geometricprecision;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    vertical-align: middle;
+}
+
+.button_20:hover,
+
+.button_20:active {
+    background-color: initial;
+    background-position: 0 0;
+    color: #4D4AE8;
+}
+
+.button_20:active {
+    opacity: .5;
+}

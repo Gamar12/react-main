@@ -1,0 +1,9 @@
+.posts {
+    display: grid;
+    border: thick double #32a1ce;
+    grid-template-columns: 3% 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+.posts > img {
+    width: 20px;
+}

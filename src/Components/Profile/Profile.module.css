@@ -1,0 +1,28 @@
+.content {
+    background-color: slateblue;
+    grid-area: content;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.img {
+    width: 200px;
+    display: block;
+}
+
+.btns {
+    padding: 5px;
+}
+
+
+.pst_grd {
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 40px;
+    grid-row-gap: 5px;
+}
+
+.about {
+    margin: 6px;
+
+}

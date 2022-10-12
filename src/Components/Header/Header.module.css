@@ -1,0 +1,24 @@
+.header {
+    background-color: tomato;
+    grid-area: header;
+    height: auto;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.header > img {
+    width: 40px;
+}
+
+.auth_block {
+    text-align: right;
+}
+
+.auth_block a {
+    color: white;
+}
+
+.login button{
+    padding: 1px;
+    margin: 3px;
+}

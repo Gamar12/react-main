@@ -1,0 +1,30 @@
+.dialogs {
+    display: grid;
+    grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems {
+    padding: 10px;
+}
+
+.dialog > img {
+    padding: 2px;
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.navlink {
+    text-decoration: none;
+}
+
+.btn {
+    width: 10px;
+}
+
+.messages {
+    padding: 10px;
+
+}
+

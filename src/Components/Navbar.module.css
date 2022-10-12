@@ -1,0 +1,43 @@
+.nav {
+    padding: 7px;
+    background-color: slateblue;
+    grid-area: nav;
+    border-radius: 10px;
+}
+
+.item a {
+    color: white;
+    text-decoration: none;
+}
+
+.item .active {
+    color: red;
+}
+
+.frnd {
+    display: grid;
+    color: white;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row-gap: 2px;
+    grid-template-areas: "test1 test1 test1"
+        "test2 test3 test4"
+;
+}
+
+.test1 {
+    grid-area: test1;
+}
+
+.test2 {
+    grid-area: test2;
+}
+
+.test3 {
+    grid-area: test3;
+}
+
+.test4 {
+    grid-area: test4;
+}
+

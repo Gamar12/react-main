@@ -1,0 +1,13 @@
+.friends_main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    color: white;
+}
+.friends_main > img {
+    width: 30px;
+    height: 30px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+}

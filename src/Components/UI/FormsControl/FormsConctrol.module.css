@@ -1,0 +1,20 @@
+input {
+    border-radius: 4px;
+    font-size: 1rem;
+    margin: 0.25rem;
+    min-width: 125px;
+    padding: 0.5rem;
+    transition: background-color 0.5s ease-out;
+}
+
+.err span{
+    color: #FF4742;
+    margin: 2px;
+}
+.err input {
+    border: #FF4742 2px solid;
+}
+.err div {
+    border: #FF4742 2px solid;
+    color: #FF4742;
+}
